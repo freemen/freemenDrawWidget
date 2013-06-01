@@ -1,0 +1,9 @@
+<resources>
+
+    <string name="app_name">freemenDrawWidget</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="menu_settings">Settings</string>
+    <string name="title_activity_main">黑猫警长的小东西</string>
+    <string name="title_appwidget_provider">出来吧黑猫警长！</string>
+
+</resources>

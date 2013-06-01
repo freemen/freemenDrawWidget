@@ -1,0 +1,23 @@
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="hello" />
+        <ImageButton
+            android:id="@+id/imageButton1"
+            android:layout_width="104dp"
+            android:layout_height="wrap_content"
+            android:src="@drawable/someb1" />
+
+        <ImageView
+            android:id="@+id/showImageView"
+            android:layout_width="420dp"
+            android:layout_height="640dp" />
+
+    </LinearLayout>

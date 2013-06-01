@@ -1,0 +1,52 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:custom = "http://schemas.android.com/apk/res/com.example.freemendrawwidget"
+    android:id="@+id/relativeLayout"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <TextView
+        android:id="@+id/mainText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:text="@string/hello_world"
+        tools:context=".MainActivity" />
+
+    <com.example.freemendrawwidget.DrawingView
+        android:id="@+id/drawView"
+        android:layout_width="480dp"
+        android:layout_height="640dp"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/mainText" />
+
+    <Button
+        android:id="@+id/saveBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_toLeftOf="@+id/mainText"
+        android:text="Next" />
+
+    <Button
+        android:id="@+id/clsBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignTop="@+id/saveBtn"
+        android:layout_toRightOf="@+id/mainText"
+        android:text="Clear" />
+
+    <Button
+        android:id="@+id/okBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_toLeftOf="@+id/clsBtn"
+        android:layout_toRightOf="@+id/saveBtn"
+        android:text="OK" />
+
+</RelativeLayout>
